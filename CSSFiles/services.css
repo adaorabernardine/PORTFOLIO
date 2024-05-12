@@ -1,0 +1,69 @@
+.servicesGlobalContainer{
+    padding: var(--big-screens-padding);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.servicesGlobalContainer .mainServiceHeader {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin: 50px;
+}
+
+.servicesWrpper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.servicesInnerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.serviceIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+.serviceIconContainer .iconSpan{
+    color: #000;
+    font-size: 100px;
+}
+
+
+@media screen and (max-width:768px){
+    .servicesGlobalContainer{
+        padding: var(--small-screens-padding);
+    }
+
+    .servicesGlobalContainer .mainServiceHeader {
+        font-size: 30px;
+    }
+
+    .servicesWrpper{
+        flex-direction: column;
+    }
+
+    .serviceIconContainer{
+       height: 120px;
+        width: 120px;
+    }
+    
+    .serviceIconContainer .iconSpan{
+        font-size: 50px;
+    }
+        
+}
