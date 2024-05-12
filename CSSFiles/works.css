@@ -2,6 +2,7 @@
     padding: var(--big-screens-padding);
     background-color: var(--primary-color);
     color: #fff;
+    
 }
 
 .worksGlobalContainer .mainWorksHeader {
@@ -46,19 +47,15 @@
 .worksWrapper:hover .worksWrapperPseudo {
     opacity: 1;    
     top: 25%;
+    background-color:blueviolet;
 
 }
-.worksWrapper:hover .worksGlobalContainer
-
-
-
-
 
 @media screen and (max-width:768px){
     .worksGlobalContainer{
         padding: var(--small-screens-padding);
     }
-
+ 
     .worksGlobalContainer .mainServiceHeader {
         font-size: 30px;
     }
